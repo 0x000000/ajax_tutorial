@@ -1,0 +1,7 @@
+<div class="magic_form_container">
+  <%= form_tag rails_magic_create_smth_url, remote: true do %>
+    <%= text_field_tag :first_name, "Александр" %>
+    <%= text_field_tag :last_name, "Лукашенко" %>
+    <%= submit_tag "Тынц!" %>
+  <% end %>
+</div>

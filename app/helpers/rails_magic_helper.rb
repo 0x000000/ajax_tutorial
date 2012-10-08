@@ -1,0 +1,2 @@
+module RailsMagicHelper
+end
