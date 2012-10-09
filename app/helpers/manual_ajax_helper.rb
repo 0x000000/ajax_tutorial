@@ -1,0 +1,2 @@
+module ManualAjaxHelper
+end
