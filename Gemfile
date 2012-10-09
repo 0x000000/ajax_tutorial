@@ -24,6 +24,8 @@ group :development do
   gem 'quiet_assets'
 end
 
+gem 'js-routes'
+gem 'gon'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
