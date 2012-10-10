@@ -1,0 +1,9 @@
+<div class="person_info">
+
+  <h2>Персона №<%= @person.id %> <a href="#" class="close_btn">[X]</a></h2>
+
+  <h3><%= [@person.first_name, @person.last_name].join ' ' %></h3>
+  <span>Последний раз мы трогали эту персону в <%= @person.updated_at %></span>
+</div>
+
+<%= link_to "Обновить", "#", class: "refresh_info" %>
