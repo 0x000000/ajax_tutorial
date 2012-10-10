@@ -15,7 +15,7 @@ $(function() {
     });
   });
 
-  $(".close_btn").click(function(e) {
+  $(".person_info").on('click', 'a.close_btn', function(e) {
     e.preventDefault();
 
     $(e.target).parent().remove();
